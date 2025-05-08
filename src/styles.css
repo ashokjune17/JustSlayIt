@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Oceanwide';
+    src: url('assets/font/oceanwide/Oceanwide-Semibold.woff') format('woff'),
+         url('assets/font/oceanwide/Oceanwide-SemiboldOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-Regular.ttf') format('truetype');
+     font-weight: 400;
+     font-style: normal;
+   }
+   
+   @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-Italic.ttf') format('truetype');
+     font-weight: 400;
+     font-style: italic;
+   }
+   
+   @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-Medium.ttf') format('truetype');
+     font-weight: 500;
+     font-style: normal;
+   }
+   
+   @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-MediumItalic.ttf') format('truetype');
+     font-weight: 500;
+     font-style: italic;
+   }
+   
+   @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-SemiBold.ttf') format('truetype');
+     font-weight: 600;
+     font-style: normal;
+   }
+   
+   @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-SemiBoldItalic.ttf') format('truetype');
+     font-weight: 600;
+     font-style: italic;
+   }
+   
+   @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-Bold.ttf') format('truetype');
+     font-weight: 700;
+     font-style: normal;
+   }
+   
+   @font-face {
+     font-family: 'Afacad';
+     src: url('assets/font/afacad/Afacad-BoldItalic.ttf') format('truetype');
+     font-weight: 700;
+     font-style: italic;
+   }
+   
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

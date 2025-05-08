@@ -1,0 +1,1881 @@
+body {
+    margin: 0px !important;
+}
+
+.home-page {
+    width: 100%;
+}
+
+.top-bg {
+    border-top-left-radius: 12px;
+    width: 60%;
+}
+
+.menu-btn {
+    width: 46px;
+    height: 46px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container {
+    background: #0E3031;
+    border-radius: 12px;
+    border: 2px solid #FFFAD4;
+    position: relative;
+    margin: 50px;
+    margin-bottom: 0px !important;
+}
+
+.top-menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.make-appointment-btn {
+    padding: 0px 20px;
+    margin-right: 15px;
+    height: 46px;
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Afacad;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #242424;
+}
+
+.outer-circle {
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner-circle {
+    width: 400px;
+    height: 400px;
+}
+
+.outer-circle,
+.inner-circle {
+    border: 2px solid #BEBEBE;
+    border-radius: 50%;
+}
+
+.inner-circle {
+    background-image: url('./assets/teeth-clib.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+}
+
+.positioned-dot {
+    background-image: url('./assets/dot.svg');
+    width: 30px;
+    height: 30px;
+}
+
+.marker {
+    background-image: url('./assets/marker-arrow.svg');
+    height: 170px;
+    position: absolute;
+    right: 100px;
+    width: 200px;
+    bottom: 70px
+}
+
+.step-marker {
+    position: absolute;
+    top: 100px;
+    right: -130px;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 120px;
+    transform: rotate(-40deg);
+    background-size: contain;
+    background-image: url(./assets/marker-arrow.svg);
+}
+
+.header-text-top {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #FFFAD4;
+}
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.text-with-stroke {
+    color: #0E3031;
+    -webkit-text-stroke: 2px #FFFAD4;
+    margin-left: 26%;
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 110.00000000000001%;
+}
+
+.second-content {
+    background: #F6F6F6;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 25px 20px;
+    border-top-left-radius: 0px;
+    width: 90%;
+    margin: auto;
+    margin-top: -2px;
+    border-top-right-radius: 0px;
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5 {
+    border-radius: 8px;
+    background: rgb(149, 222, 227, 0.2);
+    border: 1px solid rgba(98, 183, 169, 0.49);
+    width: 270px;
+    padding: 15px;
+    backdrop-filter: blur(28.200000762939453px);
+    height: 110px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-item {
+    margin-right: 50px;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.content-title {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.content-text {
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 10px;
+}
+
+.content1 {
+    position: absolute;
+    left: -165px;
+    top: 80px;
+}
+
+.content1 .positioned-dot {
+    position: absolute;
+    right: -35px;
+    bottom: 150px;
+}
+
+.content2 {
+    position: absolute;
+    right: -165px;
+    top: 80px;
+}
+
+.content2 .positioned-dot {
+    position: absolute;
+    top: -40px;
+    left: -30px;
+}
+
+.content3 {
+    position: absolute;
+    right: -150px;
+    top: 340px;
+}
+
+.content3 .positioned-dot {
+    position: absolute;
+    top: -40px;
+    left: -20px;
+}
+
+.content4 {
+    position: absolute;
+    left: -150px;
+    top: 340px;
+}
+
+.content4 .positioned-dot {
+    position: absolute;
+    top: -40px;
+    right: -15px
+}
+
+.content5 {
+    position: absolute;
+    bottom: -25px;
+    left: 90px
+}
+
+.content5 .positioned-dot {
+    position: absolute;
+    top: -35px;
+    left: -30px;
+}
+
+.fourth-title {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 3rem;
+    letter-spacing: 0%;
+    margin-top: 30px;
+}
+
+.teeth-bg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.fourth-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.slaying {
+    color: rgb(210, 215, 85);
+}
+
+.switch-arrows {
+    width: 30px;
+    height: 30px;
+}
+
+.arrow-section {
+    align-self: end;
+}
+
+.fifth-header {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: rgba(36, 36, 36, 1);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.fifth-info {
+    font-family: Afacad;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: rgba(38, 142, 146, 1);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.fifth-content {
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(146, 146, 146, 1);
+    padding: 15px 0px;
+}
+
+.test-btn {
+    width: 180px;
+    margin: auto;
+    height: 50px;
+    border-radius: 80px;
+    background: rgba(36, 36, 36, 1);
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 25px;
+    margin-top: 10px;
+}
+
+.just-start-slaying-label {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: rgba(36, 36, 36, 1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.blur-bg {
+    border-radius: 12px;
+    background: rgba(255, 250, 212, 1);
+    box-shadow: 10px 14px 11.5px -29px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(21px);
+    backdrop-filter: blur(21px);
+    height: 250px;
+    width: 320px;
+    padding: 20px;
+}
+
+.step-details {
+    padding-top: 5px;
+}
+
+.step {
+    position: relative;
+}
+
+.steps-container {
+    display: flex;
+    margin:auto;
+    margin-top: 30px;
+    width: 90%;
+    height: 450px;
+    justify-content: space-between;
+}
+
+.step-content {
+    margin-bottom: 50px;
+}
+
+.step-header {
+    display: flex;
+}
+
+.content-brief {
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(146, 146, 146, 1);
+}
+
+.step-title {
+    font-family: Afacad;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: rgba(36, 36, 36, 1);
+    padding-bottom: 10px;
+}
+
+.step-time {
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(31, 31, 31, 1);
+}
+
+.step-number {
+    font-family: Afacad;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: rgba(36, 36, 36, 1);
+
+}
+
+.accordion-content {
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(146, 146, 146, 1);
+    padding-left: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.accordion-label {
+    font-family: Afacad;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: rgba(36, 36, 36, 1);
+}
+
+.accordion-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+.arrow-icon {
+    width: 25px;
+    height: 15px;
+}
+
+.faq-section {
+    background: linear-gradient(98.6deg, #0E3031 0%, #27D0D5 100%);
+    height: 700px;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+.faq-header {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+
+.faq-question {
+    font-family: Afacad;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.faq-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.faq {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 1px solid rgba(235, 235, 235, 1);
+    align-self: flex-start;
+}
+
+.faq-answer {
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(241, 241, 241, 1);
+}
+
+.seventh-section {
+    background-image: url(./assets/teeth-bg.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-backdrop-filter: blur(20.399999618530273px);
+    backdrop-filter: blur(20.399999618530273px);
+    border: 1px solid rgba(10, 10, 10, 0.1);
+    background: rgba(10, 10, 10, 0.17);
+    height: 300px;
+    border-radius: 12px;
+    width: 95%;
+    margin: auto;
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.seventh-header {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.seventh-content {
+    font-family: Afacad;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.footer-section {
+    background: rgba(36, 36, 36, 1);
+    padding: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header {
+    font-family: afacad;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 100%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    font-family: afacad;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 100%;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.bg-container {
+    background: #0E3031;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    z-index: -9;
+    border-radius: 12px;
+    bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.lady-bg {
+    flex: 0 0 60%;
+    position: relative;
+    height: 100%;
+}
+
+.sixth-section {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-title {
+    font-family: Oceanwide;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+}
+
+.accordion {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-container {
+    padding: 20px;
+}
+
+.plus-icon,
+.minus-icon {
+    float: right;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.schedule-btn {
+    font-family: Afacad;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    height: 46px;
+    background: inherit;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575px) {
+    .top-container {
+        margin: 20px;
+        margin-bottom: 0px !important;
+    }
+
+    .sixth-section {
+        align-items: start;
+    }
+
+    .menu-btn {
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo-img {
+        margin-left: 10px !important;
+        width: 40px;
+    }
+
+    .menu-icon {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    .hamburger-menu {
+        width: 10px;
+        height: 10px;
+    }
+
+    .arrow-img {
+        width: 20px;
+        height: 15px;
+    }
+
+    .top-menu {
+        top: 10px;
+        left: 10px;
+    }
+
+    .make-appointment-btn {
+        padding: 0px 10px;
+        margin-right: 15px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .outer-circle {
+        width: 350px;
+        height: 350px;
+    }
+
+    .inner-circle {
+        width: 180px;
+        height: 180px;
+        background-size: 150px;
+    }
+
+    .positioned-dot {
+        width: 15px;
+        height: 15px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .marker {
+        height: 110px;
+        right: 60px;
+        width: 110px;
+        bottom: 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .header-text-top {
+        font-size: 1.3rem;
+    }
+
+    .header-text {
+        top: 35%;
+        left: 55%;
+    }
+
+    .text-with-stroke {
+        font-size: 20px;
+    }
+
+    .second-content {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding: 10px 15px;
+        width: 80%;
+    }
+
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5 {
+        width: 80px;
+        padding: 8px;
+        height: 70px;
+    }
+
+
+    .content-title {
+        font-size: 0.7rem;
+    }
+
+    .content-text {
+        font-size: 0.5rem;
+    }
+
+    .content1 {
+        left: 20px;
+        top: 15px;
+    }
+
+    .content1 .positioned-dot {
+        bottom: 70px;
+        right: -19px;
+        top: -15px;
+    }
+
+    .content2 {
+        right: 20px;
+        top: 15px;
+    }
+
+    .content2 .positioned-dot {
+        bottom: 70px;
+        left: -19px;
+        top: -15px;
+    }
+
+    .content3 {
+        right: -0px;
+        top: 150px;
+    }
+
+    .content3 .positioned-dot {
+        top: -20px;
+        left: -5px;
+    }
+
+    .content4 {
+        left: -5px;
+        top: 150px;
+    }
+
+    .content4 .positioned-dot {
+        top: -20px;
+        right: -10px;
+    }
+
+    .content5 {
+        bottom: -60px;
+        left: 70px;
+    }
+
+    .content5 .positioned-dot {
+        top: -25px;
+        left: -20px;
+    }
+
+    .self-confidence-img {
+        width: 80px;
+    }
+
+    .fourth-section {
+        margin-top: 50px;
+    }
+
+    .fourth-title {
+        font-size: 20px;
+        line-height:1.5rem;
+    }
+
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 30px
+    }
+
+    .step-marker {
+        position: absolute;
+        left: 125px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 40px;
+        transform: rotate(-40deg);
+        background-size: contain;
+        background-image: url(./assets/marker-arrow.svg);
+    }
+
+
+    .carousel-item {
+        margin-right: 15px;
+    }
+
+    .carousel img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    .carousel-item.active {
+        display: block;
+    }
+
+    .teeth-bg {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .fourth-header {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+
+    .slaying {
+        color: rgba(38, 142, 146, 1);
+    }
+
+    .switch-arrows {
+        width: 20px;
+        height: 20px;
+    }
+
+    .arrow-section {
+        align-self: end;
+    }
+
+    .fifth-header {
+        font-size: 20px;
+    }
+
+    .fifth-info {
+        font-size: 15px;
+    }
+
+    .fifth-content {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px 10px;
+    }
+
+    .test-btn {
+        width: 180px;
+        margin: auto;
+        height: 50px;
+        border-radius: 80px;
+        background: rgba(36, 36, 36, 1);
+        font-family: Oceanwide;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 0px 25px;
+        margin-top: 10px;
+    }
+
+    .just-start-slaying-label {
+        font-size: 20px;
+    }
+
+    .blur-bg {
+        height: 120px;
+        width: 80px;
+        top: 30px;
+        left: 20px;
+        padding: 10px;
+    }
+
+    .step-teeth-bg {
+        width: 60%;
+    }
+
+    .step {
+        position: relative;
+    }
+
+    .steps-icon {
+        margin-right: 10px;
+    }
+
+    .steps-container {
+        margin-top: 30px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .step-content {
+        margin-top: 10px;
+    }
+
+
+    .content-brief {
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }
+
+    .step-title {
+        font-size: 0.8rem;
+    }
+
+    .steps-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .step-time {
+        font-size: 0.6rem;
+        line-height: 15px;
+    }
+
+    .step-number {
+        font-size: 0.8rem;
+    }
+
+    .accordion-content {
+        font-size: 11px;
+        line-height: 11px;
+        padding-left: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .accordion-label {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+    }
+
+    .accordion-icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+    .faq-section {
+        background: linear-gradient(98.6deg, #0E3031 0%, #27D0D5 100%);
+        height: 700px;
+        padding: 50px 20px;
+        margin-left: -40px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .faq-header {
+        font-family: Oceanwide;
+        font-size: 20px;
+    }
+
+    .faq-question {
+        font-size: 13px;
+    }
+
+    .faq {
+        padding: 20px;
+    }
+
+    .faq-answer {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .footer-section {
+        background: rgba(36, 36, 36, 1);
+        padding: 6%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-header {
+        font-family: afacad;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 100%;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .menu-items {
+        font-family: afacad;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 100%;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .bg-container {
+        height: 170px;
+        top: 40%;
+    }
+
+    .lady-bg {
+        width: 50vw;
+    }
+
+    .accordion-title {
+        font-size: 1rem;
+    }
+
+    .accordion {
+        border-bottom: 1px solid #d9d9d9;
+        padding: 10px;
+    }
+
+
+    .accordion-container {
+        padding: 10px;
+    }
+
+    .plus-icon,
+    .minus-icon {
+        width: 12px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .arrow-icon {
+        width: 10px;
+        height: 5px;
+        margin-left: 10px;
+    }
+
+    .menu-header {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+    .menu-items {
+        font-size: 0.7rem;
+        margin-bottom: 7px;
+    }
+
+    .menu-icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .top-bg {
+        width: 50%;
+    }
+
+    .top-container {
+        margin: 40px;
+    }
+
+    .header-text {
+        left: 50%;
+    }
+
+    .text-with-stroke {
+        font-size: 2.6rem;
+    }
+
+    .header-text-top {
+        font-size: 2.5rem;
+    }
+
+    .second-content {
+        width: 80%;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .footer-section {
+        background: rgba(36, 36, 36, 1);
+        padding: 6%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-header {
+        font-family: afacad;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 100%;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .fourth-title {
+        font-size: 2.5rem;
+    }
+
+    .menu-items {
+        font-family: afacad;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 100%;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .lady-bg {
+        flex: 0 0 60%;
+    }
+
+    .blur-bg {
+        width: 130px;
+        height: 230px;
+    }
+
+    .step-marker {
+        position: absolute;
+        left: 315px;
+        top: 40%;
+        background-repeat: no-repeat;
+        width: 70px;
+    }
+
+    .content-title {
+        font-size: 1.2rem;
+    }
+
+    .content-text {
+        font-size: 1rem;
+    }
+
+    .arrow-icon {
+        width: 15px;
+        height: 10px;
+    }
+
+    .accordion-title {
+        font-size: 2.2rem;
+    }
+
+    .accordion-label {
+        font-size: 2rem;
+    }
+
+    .accordion-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .accordion-content {
+        font-size: 1.3rem;
+        padding-left: 18%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5 {
+        width: 30%;
+        height: 90px;
+    }
+
+    .content3 .positioned-dot {
+        left: -5px;
+    }
+
+    .content3 {
+        right: -70px;
+        top: 250px;
+    }
+
+    .content4 {
+        left: -80px;
+        top: 250px;
+    }
+
+    .content1 .positioned-dot {
+        top: -40px;
+        bottom: 0px;
+    }
+
+    .content1 {
+        left: -100px;
+    }
+
+    .content2 {
+        right: -100px;
+    }
+
+    .content3 {
+        right: -80px;
+    }
+
+    .content4 {
+        left: -90px;
+    }
+
+    .content5 {
+        bottom: -70px;
+    }
+
+    .marker {
+        height: 140px;
+        right: 70px;
+        width: 140px;
+        bottom: 10px;
+        background-size: contain;
+    }
+
+    .self-confidence-img {
+        width: 80%;
+    }
+
+    .third-circle {
+        margin-bottom: 60px;
+    }
+
+    .carousel-item {
+        margin-right: 50px;
+        transition: transform 0.5s ease;
+        flex: 0 0 30%;
+    }
+
+    .carousel img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .fifth-header {
+        font-size: 2.2rem;
+    }
+
+    .step-teeth-bg {
+        width: 90%;
+    }
+
+    .fifth-info {
+        font-size: 2rem;
+    }
+
+    .fifth-content {
+        font-size: 1.2rem;
+        width: 90%;
+        margin: auto;
+        line-height: 1.2rem;
+    }
+
+    .just-start-slaying-label {
+        font-size: 2.2rem;
+    }
+
+    .step-title {
+        font-size: 1.5rem;
+    }
+
+    .content-brief {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .faq-header {
+        font-size: 2.2rem;
+    }
+
+    .faq-question {
+        font-size: 1.8rem;
+    }
+
+    .faq-answer {
+        font-size: 1.5rem;
+    }
+
+    .outer-circle {
+        width: 500px;
+        height: 500px;
+    }
+
+    .inner-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .step-content {
+        margin-top: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .top-bg {
+        width: 50%;
+    }
+
+    .top-container {
+        margin: 40px;
+    }
+
+    .header-text {
+        left: 50%;
+    }
+
+    .text-with-stroke {
+        font-size: 2.6rem;
+    }
+
+    .header-text-top {
+        font-size: 2.5rem;
+    }
+
+    .second-content {
+        width: 80%;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .footer-section {
+        background: rgba(36, 36, 36, 1);
+        padding: 6%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-header {
+        font-family: afacad;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 100%;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .fourth-title {
+        font-size: 2.5rem;
+    }
+
+    .menu-items {
+        font-family: afacad;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 100%;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .lady-bg {
+        flex: 0 0 60%;
+    }
+
+    .blur-bg {
+        width: 130px;
+        height: 230px;
+    }
+
+    .step-marker {
+        position: absolute;
+        left: 315px;
+        top: 40%;
+        background-repeat: no-repeat;
+        width: 70px;
+    }
+
+    .content-title {
+        font-size: 1.2rem;
+    }
+
+    .content-text {
+        font-size: 1rem;
+    }
+
+    .arrow-icon {
+        width: 15px;
+        height: 10px;
+    }
+
+    .accordion-title {
+        font-size: 2.2rem;
+    }
+
+    .accordion-label {
+        font-size: 2rem;
+    }
+
+    .accordion-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .accordion-content {
+        font-size: 1.3rem;
+        padding-left: 18%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5 {
+        width: 30%;
+        height: 90px;
+    }
+
+    .content3 .positioned-dot {
+        left: -5px;
+    }
+
+    .content3 {
+        right: -70px;
+        top: 250px;
+    }
+
+    .content4 {
+        left: -80px;
+        top: 250px;
+    }
+
+    .content1 .positioned-dot {
+        top: -40px;
+        bottom: 0px;
+    }
+
+    .content1 {
+        left: -100px;
+    }
+
+    .content2 {
+        right: -100px;
+    }
+
+    .content3 {
+        right: -80px;
+    }
+
+    .content4 {
+        left: -90px;
+    }
+
+    .content5 {
+        bottom: -70px;
+    }
+
+    .marker {
+        height: 140px;
+        right: 70px;
+        width: 140px;
+        bottom: 10px;
+        background-size: contain;
+    }
+
+    .self-confidence-img {
+        width: 80%;
+    }
+
+    .third-circle {
+        margin-bottom: 60px;
+    }
+
+    .carousel-item {
+        margin-right: 50px;
+        transition: transform 0.5s ease;
+        flex: 0 0 30%;
+    }
+
+    .carousel img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .fifth-header {
+        font-size: 2.2rem;
+    }
+
+    .step-teeth-bg {
+        width: 90%;
+    }
+
+    .fifth-info {
+        font-size: 2rem;
+    }
+
+    .fifth-content {
+        font-size: 1.2rem;
+        width: 90%;
+        margin: auto;
+        line-height: 1.2rem;
+    }
+
+    .just-start-slaying-label {
+        font-size: 2.2rem;
+    }
+
+    .step-title {
+        font-size: 1.5rem;
+    }
+
+    .content-brief {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .faq-header {
+        font-size: 2.2rem;
+    }
+
+    .faq-question {
+        font-size: 1.8rem;
+    }
+
+    .faq-answer {
+        font-size: 1.5rem;
+    }
+
+    .outer-circle {
+        width: 500px;
+        height: 500px;
+    }
+
+    .inner-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .step-content {
+        margin-top: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .top-bg {
+        width: 50%;
+    }
+
+    .top-container {
+        margin: 40px;
+    }
+
+    .header-text {
+        left: 50%;
+    }
+
+    .text-with-stroke {
+        font-size: 2.6rem;
+    }
+
+    .header-text-top {
+        font-size: 2.5rem;
+    }
+
+    .second-content {
+        width: 80%;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .footer-section {
+        background: rgba(36, 36, 36, 1);
+        padding: 6%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-header {
+        font-size: 1.5rem;
+    }
+
+    .menu-items {
+        font-size: 1rem;
+    }
+
+    .menu-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .lady-bg {
+        flex: 0 0 60%;
+    }
+
+    .blur-bg {
+        width: 200px;
+        height: 280px;
+    }
+
+    .step-marker {
+        position: absolute;
+        left: 315px;
+        top: 40%;
+        background-repeat: no-repeat;
+        width: 70px;
+    }
+
+    .content-title {
+        font-size: 1.2rem;
+    }
+
+    .content-text {
+        font-size: 1rem;
+    }
+
+    .arrow-icon {
+        width: 15px;
+        height: 10px;
+    }
+
+    .accordion-title {
+        font-size: 2.2rem;
+    }
+
+    .accordion-label {
+        font-size: 2rem;
+    }
+
+    .accordion-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .accordion-content {
+        font-size: 1.3rem;
+        padding-left: 18%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5 {
+        width: 30%;
+        height: 90px;
+    }
+
+    .content3 .positioned-dot {
+        left: -5px;
+    }
+
+    .content3 {
+        right: -160px;
+    }
+
+    .content4 {
+        left: -175px;
+    }
+
+    .content1 .positioned-dot {
+        top: -40px;
+        bottom: 0px;
+    }
+
+    .content1 {
+        left: -100px;
+    }
+
+    .content2 {
+        right: -100px;
+    }
+
+    .content3 {
+        right: -80px;
+    }
+
+    .content4 {
+        left: -90px;
+    }
+
+    .content5 {
+        bottom: -10px;
+    }
+
+    .marker {
+        height: 170px;
+        right: 100px;
+        width: 190px;
+        bottom: 50px;
+    }
+
+    .self-confidence-img {
+        width: 80%;
+    }
+
+    .third-circle {
+        margin-bottom: 60px;
+    }
+
+    .carousel-item {
+        margin-right: 50px;
+        transition: transform 0.5s ease;
+        flex: 0 0 30%;
+    }
+
+    .carousel img {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+    .fifth-header {
+        font-size: 2.2rem;
+    }
+
+    .fifth-info {
+        font-size: 2rem;
+    }
+
+    .fifth-content {
+        font-size: 1.2rem;
+        width: 90%;
+        margin: auto;
+        line-height: 1.2rem;
+    }
+
+    .just-start-slaying-label {
+        font-size: 2.2rem;
+    }
+
+    .step-title {
+        font-size: 1.8rem;
+    }
+
+    .content-brief {
+        font-size: 1.3rem;
+    }
+
+    .faq-header {
+        font-size: 2.2rem;
+    }
+
+    .faq-question {
+        font-size: 1.8rem;
+    }
+
+    .faq-answer {
+        font-size: 1.5rem;
+    }
+}
+.reviews
+{
+    color:deepskyblue;
+    display:flex;
+    margin-top:10px;
+}

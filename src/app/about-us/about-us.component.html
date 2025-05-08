@@ -1,0 +1,101 @@
+<div>
+    <div class="first-section">
+        <img src="./assets/two-ladies.png" class="two-lady-bg">
+        <div class="first-header">
+            <div><img src="./assets/Slay.png" style="margin-left:30px" /></div>
+            <div class="header-menu">
+                <button class="menu-btn" mat-button [matMenuTriggerFor]="menu"><img class="hamburger-menu"
+                    src="./assets/menu.png" /></button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item [routerLink]="'/home'" xPosition="after" yPosition="below">Home</button>
+                    <button mat-menu-item [routerLink]="'/aligner'" xPosition="after" yPosition="below">Aligner</button>
+                    <button mat-menu-item [routerLink]="'/about-us'" xPosition="after" yPosition="below">About Us</button>
+                </mat-menu>
+            </div>
+        </div>
+        <div class="header-text">
+            <span class="header-text-top">For a smile <br /> that makes <br /> you
+            </span>
+            <span class="text-with-stroke">CHIC</span>
+        </div>
+    </div>
+    <div class="second-section">
+        At Slay, we believe confidence begins with a smile. Born from the vision to redefine orthodontic care in India,
+        we combine cutting-edge technology with sleek, comfortable aligners designed for modern lifestyles. Our mission
+        is to make a confident, radiant smile accessible to everyone—without the hassle of traditional braces. With
+        Slay, your journey to a flawless smile is effortless, stylish, and truly empowering.
+    </div>
+    <div class="third-section">
+        <img class="teeth-left" src="./assets/teeth-left.png">
+        <img class="teeth-right" src="./assets/teeth-right.png">
+        <div class="fifth-header" style="color:white !important;">
+            What we are Stand for
+        </div>
+        <div class="fifth-carousel third-carousel">
+            <div class="arrow-section">
+                <img class="switch-arrows" style="margin-right:25px" src="./assets/backward-white.png">
+            </div>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div *ngFor="let image of currentImageSet; let i = index" class="carousel-item"
+                        style="background: #FFFAD4 !important;">
+                        <img [src]="image.src" alt="carousel image" />
+                        <div class="third-title"> {{image.title}}</div>
+                        <div class="third-content">{{image.description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-section">
+                <img class="switch-arrows" src="./assets/forward-white.png">
+            </div>
+        </div>
+    </div>
+    <div class="fourth-section">
+        <img src="./assets/start-img.png" style="width:100%;" *ngIf="!isSectionOpened" (click)="isSectionOpened = !issectionOpened">
+        <img src="./assets/end-image.png" style="width:100%;"  *ngIf="isSectionOpened" (click)="isSectionOpened = !issectionOpened">
+    </div>
+    <div class="fifth-section">
+        <div class="fifth-header">
+            Our Saly team
+        </div>
+        <div class="fifth-carousel">
+            <div class="arrow-section">
+                <img class="switch-arrows" style="margin-right:25px" src="./assets/backward-arrow.png">
+
+            </div>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div *ngFor="let image of currentDoctorImageSet; let i = index" class="carousel-item">
+                        <img [src]="image.src" alt="carousel image" />
+                        <div class="doctor-name"> {{image.doctorName}}</div>
+                        <div class="doctor-designation">{{image.designation}}</div>
+                        <div class="doctor-department">{{image.description}}<br> {{image.department}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-section">
+                <img class="switch-arrows" src="./assets/forward-arrow.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <div class="home-menu">
+            <div class="menu-header">Support</div>
+            <div class="menu-items">+91 95430 74333</div>
+            <div class="menu-items">support&#64;justslayit.in</div>
+            <div class="menu-items" style="display:flex;justify-content: space-between;">
+                <a href="https://www.instagram.com/justslayit.in/" target="_blank">
+                    <img src="./assets/instagram.png" class="menu-icon">
+                </a>
+                <img src="./assets/linkedin.png" class="menu-icon">
+                <img src="./assets/facebook.png" class="menu-icon">                
+            </div>            
+        </div>
+        <div class="home-menu">
+            <div class="menu-header">Timings</div>
+            <div class="menu-items">Mon - Fri, 9:00 - 20:00</div>
+            <div class="menu-items">Sat, 9:00 - 18:00</div>
+        </div>
+    </div>
+</div>
