@@ -883,7 +883,7 @@ body {
 
     .step-marker {
         position: absolute;
-        left: 125px;
+        left: 105px;
         background-repeat: no-repeat;
         width: 30px;
         height: 40px;
@@ -1486,7 +1486,7 @@ body {
 
     .step-marker {
         position: absolute;
-        left: 315px;
+        left: 195px;
         top: 40%;
         background-repeat: no-repeat;
         width: 70px;
@@ -1721,7 +1721,7 @@ body {
 
     .step-marker {
         position: absolute;
-        left: 315px;
+        left: 195px;
         top: 40%;
         background-repeat: no-repeat;
         width: 70px;
