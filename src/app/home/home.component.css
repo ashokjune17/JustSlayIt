@@ -78,20 +78,20 @@ body {
 }
 
 .inner-circle {
-    background-image: url('./assets/teeth-clib.svg');
+    background-image: url('/assets/teeth-clib.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px 300px;
 }
 
 .positioned-dot {
-    background-image: url('./assets/dot.svg');
+    background-image: url('/assets/dot.svg');
     width: 30px;
     height: 30px;
 }
 
 .marker {
-    background-image: url('./assets/marker-arrow.svg');
+    background-image: url('/assets/marker-arrow.svg');
     height: 170px;
     position: absolute;
     right: 100px;
@@ -108,7 +108,7 @@ body {
     height: 120px;
     transform: rotate(-40deg);
     background-size: contain;
-    background-image: url(./assets/marker-arrow.svg);
+    background-image: url(/assets/marker-arrow.svg);
 }
 
 .header-text-top {
@@ -539,7 +539,7 @@ body {
 }
 
 .seventh-section {
-    background-image: url(./assets/teeth-bg.png) !important;
+    background-image: url(/assets/teeth-bg.png) !important;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-backdrop-filter: blur(20.399999618530273px);
@@ -889,7 +889,7 @@ body {
         height: 40px;
         transform: rotate(-40deg);
         background-size: contain;
-        background-image: url(./assets/marker-arrow.svg);
+        background-image: url(/assets/marker-arrow.svg);
     }
 
 

@@ -7,15 +7,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.top-menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 12px;
-    background: #0E3031;
+    
+    position: relative;
+    z-index: 999
 }
 
 .header-text {
@@ -52,6 +46,7 @@
     color: rgba(92, 92, 92, 1);
     width: 85%;
     margin: auto;
+    margin-bottom:20px;
 }
 
 .fourth-section {
@@ -71,10 +66,19 @@
 }
 
 .footer-section {
-    background: rgba(36, 36, 36, 1);
+    background: rgba(1, 47, 100, 1);
     padding: 6%;
     display: flex;
     justify-content: space-between;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    /* margin: 20px; */
+    border-radius: 12px;
+    background: #FFFAD4;
 }
 
 .tab-button {
@@ -98,6 +102,7 @@
     height: 50vw;
     border-radius: 20px;
     margin: 50px;
+    position: relative;
 }
 
 .two-lady-bg {
@@ -220,7 +225,6 @@
     font-size: 20px;
     line-height: 19px;
     letter-spacing: -2%;
-    text-align: justify;
     color: white;
     margin-top: 10px;
     padding-bottom: 50px;
@@ -258,7 +262,6 @@
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -2%;
-    text-align: justify;
     color: #636363;
     margin-top: 10px;
 }
@@ -271,117 +274,119 @@
 
 /* Extra small devices (phones, <576px) */
 @media (max-width: 575px) {
-    .header1 {
-        font-size: 2.2rem;
+    .about-us-grid {
+        width: 100vw;
+        display: grid;
     }
 
-    .header2 {
-        font-size: 2rem;
+    .two-lady-bg {
+        right: 0%;
+        bottom: 0%;
+        z-index: 0;
+        width: 200px;
+        height: fit-content;
     }
 
-    .img-container2 {
-        flex: 0 0 35%;
-    }
-
-    .header-menu {
+    .top-menu {
         display: flex;
-        /* margin-right: 5%; */
+        justify-content: space-between;
+        padding: 15px;
+        margin: 20px;
+        border-radius: 12px;
+        background: #0E3031;
     }
 
-    .img-container1,
-    .img-container2,
-    .img-container3 {
-        padding: 10px;
-        margin-top: 10px;
+    .slay-img {
+        width: 50px;
+        height: 20px;
     }
 
-    .first-img {
-        width: 100%;
-        margin-bottom: 20px
+    .first-header {
+        padding: 5px 20px;
     }
 
-    .second-img {
-        width: 100%;
-        margin-bottom: 20px
+    .header-text-top {
+        font-size: 1.2rem;
     }
 
-    .third-img {
-        width: 100%;
-    }
-
-    .fourth-img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .fifth-img {
-        width: 100%;
-        margin-bottom: 20px
-    }
-
-    .sixth-img {
-        width: 100%;
-        margin-bottom: 10px
-    }
-
-    .img-container1 {
-        width: 30%;
-    }
-
-    .img-container3 {
-        width: 30%;
+    .text-with-stroke {
+        font-size: 1.2rem;
     }
 
     .second-section {
-        padding: 10px 20px;
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+        margin-bottom: 20px;
     }
 
-    .content-section {
-        margin-right: 20px;
-    }
-
-    .third-header,
-    .step-number {
-        font-size: 1rem;
-    }
-
-    .right-content {
-        padding-left: 5%;
-    }
-
-    .third-content {
-        font-size: 0.6rem;
-        line-height: 0.8rem;
-    }
-
-    .third-container {
-        padding: 5%;
-    }
-
-    .mb2 {
-        margin-bottom: 15%;
-    }
-
-    .fourth-section {
-        position: relative;
+    .teeth-right,
+    .teeth-left {
+        width: 50vw;
+        height: 70%;
     }
 
     .third-section {
+        padding: 10px;
+    }
+
+    .carousel-item {
+        margin-right: 5px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .fifth-header {
+        font-size: 1.2rem;
         margin-top: 20px;
     }
 
-    .side-bg-imgs {
-        width: 100%;
-        height: 600px;
+    .third-title {
+        font-size: 0.5rem;
+        line-height: 0.5rem;
     }
 
-    .menu-header {
-        font-size: 0.8rem;
+    .third-content {
+        font-size: 0.4rem;
+        line-height: 0.4rem;
         margin-bottom: 10px;
     }
 
-    .menu-items {
+    .third-carousel {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 100%;
+    }
+
+    .switch-arrows {
+        width: 30px;
+        margin-right: 5px !important;
+    }
+
+    .doctor-name {
+        font-size: 0.5rem;
+    }
+
+    .doctor-designation {
+        font-size: 0.5rem;
+    }
+
+    .doctor-department {
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+        padding-bottom: 10px;
+    }
+
+    .menu-header {
         font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+
+    .footer-section {
+        padding: 4%;
+    }
+
+    .menu-items {
+        font-size: 0.5rem;
         margin-bottom: 7px;
     }
 
@@ -391,225 +396,242 @@
         margin-right: 10px;
     }
 
-    .logo-img {
-        width: 60px;
-        margin-left: 0px !important;
+    .fifth-carousel {
+        width: 90%;
     }
 
     .first-section {
-        padding: 0px 20px;
-    }
-
-    .content1 {
-        margin-top: 10px;
-        font-size: 0.7rem;
-    }
-
-    .header2 {
-        font-size: 0.8rem;
-    }
-
-    .header1 {
-        font-size: 1rem;
-    }
-
-    .left-img {
-        flex: 0 0 50%;
-        height: 100%
-    }
-
-
-    .content1 {
-        margin-top: 15px;
-    }
-
-    .left-bg {
-        width: 100%;
-    }
-
-    .right-btn {
-        margin-top: 15%;
-    }
-
-    .mb2 {
-        margin-bottom: 10%;
-    }
-
-    .side-bg-imgs {
-        height: 350px;
-    }
-
-
-    .fourth-content-card {
-        height: 250px;
-        padding: 20px;
-    }
-
-    .img-container2 {
-        flex: 0 0 35%;
-    }
-
-    .image-section {
-        flex: 0 0 50%;
-    }
-
-    .first-img,
-    .second-img,
-    .fifth-img {
-        margin-bottom: 10px;
-    }
-
-    .step-number {
-        width: 30px;
-        height: 30px;
-        border-width: 3px;
+        margin: 20px;
     }
 
 
     .menu-btn {
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
 
     .hamburger-menu {
         width: 10px;
     }
 
-    .arrow-img {
-        width: 10px;
-    }
-
-    .make-appointment-btn {
-        margin-right: 10px;
-        font-size: 0.6rem;
-        padding: 0px 10px;
-        height: 25px;
-        width: 70%
+    .switch-arrows {
+        width: 20px;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-    .logo-img {
-        width: 70px;
+    .about-us-grid {
+        width: 100vw;
+        display: grid;
     }
 
-    .first-section {
-        padding: 0px 50px;
+    .two-lady-bg {
+        right: 0%;
+        bottom: 0%;
+        z-index: 0;
+        width: 60vw;
+        height: fit-content;
     }
 
-    .content1 {
-        font-size: 1rem;
-        line-height: 1rem;
+    .slay-img {
+        width: 50px;
+        height: 30px;
     }
 
-    .header2 {
+    .first-header {
+        padding: 5px 20px;
+    }
+
+    .header-text-top {
+        font-size: 2.2rem;
+    }
+
+    .text-with-stroke {
+        font-size: 2.2rem;
+    }
+
+    .second-section {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .teeth-right,
+    .teeth-left {
+        width: 50vw;
+        height: 70%;
+    }
+
+    .third-section {
+        padding: 10px;
+    }
+
+    .carousel-item {
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .fifth-header {
+        font-size: 2.2rem;
+        margin-top: 20px;
+    }
+
+    .third-title {
         font-size: 1.2rem;
-    }
-
-    .header1 {
-        font-size: 1.5rem;
-    }
-
-    .left-img {
-        flex: 0 0 50%;
-        height: 100%
-    }
-
-    .third-header,
-    .step-number {
-        font-size: 1.5rem;
-    }
-
-    .content1 {
-        margin-top: 15px;
-    }
-
-    .left-bg {
-        width: 100%;
-    }
-
-    .right-btn {
-        margin-top: 15%;
-    }
-
-    .mb2 {
-        margin-bottom: 10%;
+        line-height: 1.2rem;
     }
 
     .third-content {
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 1rem;
-    }
-
-    .side-bg-imgs {
-        height: 400px;
-    }
-
-    .right-btn {
-        width: 80%;
-        font-size: 0.8rem;
-    }
-
-    .fourth-content-card {
-        height: 300px;
-    }
-
-    .img-container2 {
-        flex: 0 0 32%;
-    }
-
-    .image-section {
-        flex: 0 0 50%;
-    }
-
-    .first-img,
-    .second-img,
-    .fifth-img {
         margin-bottom: 10px;
     }
 
-    .menu-items {
+    .third-carousel {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 100%;
+    }
+
+    .switch-arrows {
+        width: 30px;
+        margin-right: 5px !important;
+    }
+
+    .doctor-name {
         font-size: 1rem;
     }
 
-    .step-number {
-        width: 50px;
-        height: 50px;
+    .doctor-designation {
+        font-size: 1rem;
+    }
+
+    .doctor-department {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+        padding-bottom: 10px;
     }
 
     .menu-header {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
     }
+
+    .footer-section {
+        padding: 4%;
+    }
+
+    .menu-items {
+        font-size: 0.8rem;
+        margin-bottom: 7px;
+    }
+
+    .menu-icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+    .fifth-carousel {
+        width: 100%;
+    }
+
+    .first-section {
+        margin: 20px;
+        height: 45vw;
+    }
+
 
     .menu-btn {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
 
-    .make-appointment-btn {
-        height: 40px;
+    .hamburger-menu {
+        width: 10px;
+    }
+
+    .switch-arrows {
+        width: 20px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-    .header-text {
-        margin-left: 5%;
+    .two-lady-bg {
+        height: 45vw;
+        bottom: 0;
+        width: 50vw;
     }
+    .header-text-top,.text-with-stroke,.fifth-header
+    {
+        font-size:2.5rem;
+        line-height:2.5rem;
+    }
+    .doctor-name , .doctor-designation
+    {
+        font-size:1.2rem;
+    }
+    .doctor-department
+    {
+        font-size:1rem;
+    }
+    .third-content
+    {
+        font-size:1.2rem;
+        line-height:1.2rem;
+    }
+    .first-section {
+        margin: 30px;
+    }
+
     .second-section {
         margin: 30px auto;
     }
+
+    .teeth-right {
+        width: 75vw;
+    }
+
+    .teeth-left {
+        width: 50vw;
+    }
+
+    .third-section
+    {
+        padding:1%;
+    }
+    .fifth-header
+    {
+        margin-top:5%;
+    }
+
     .third-carousel {
         margin-top: 5% !important;
         margin-bottom: 5% !important;
         width: 100% !important;
     }
+
     .menu-items {
         font-size: 1rem;
     }
+
     .menu-header {
         font-size: 1.5rem;
+    }
+    .carousel-item
+    {
+        margin-right:10px;
+    }
+    .switch-arrows
+    {
+        margin-right:10px;
+    }
+    .fifth-carousel
+    {
+        width:95%;
     }
 }
 
@@ -663,4 +685,5 @@
     .doctor-designation {
         font-size: 1rem;
     }
+
 }

@@ -1,11 +1,11 @@
 <div class="home-page">
     <div class="top-container">
-        <img src="./assets/home-lady-bg.png" class="top-bg" />
+        <img src="/assets/home-lady-bg.png" class="top-bg" />
         <div class="top-menu">
-            <div class="header-logo"><img class="logo-img" src="./assets/Slay.svg" style="margin-left:30px" /></div>
+            <div class="header-logo"><img class="logo-img" src="/assets/Slay.svg" style="margin-left:30px" /></div>
             <div class="header-menu">
                 <button class="menu-btn" mat-button [matMenuTriggerFor]="menu"><img class="hamburger-menu"
-                        src="./assets/menu.png" /></button>
+                        src="/assets/menu.png" /></button>
                 <mat-menu #menu="matMenu">
                     <button mat-menu-item [routerLink]="'/home'" xPosition="after" yPosition="below">Home</button>
                     <button mat-menu-item [routerLink]="'/aligner'" xPosition="after" yPosition="below">Aligner</button>
@@ -22,10 +22,10 @@
     </div>
     <div class="second-content">
         <div style="display:flex;justify-content:center;">
-            <img src="./assets/google-icon.png">
+            <img src="/assets/google-icon.png">
             <div class="">
-                <div class="rating">4.5 <img src="./assets/rating.png"></div>
-                <div class="reviews"><img src='./assets/tick-icon.png' style="margin-right:10px"> 1+ reviews</div>
+                <div class="rating">4.5 <img src="/assets/rating.png"></div>
+                <div class="reviews"><img src='/assets/tick-icon.png' style="margin-right:10px"> 1+ reviews</div>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@
                 <div class="content5">
                     <div class="positioned-dot"></div>
                     <div class="content-title">Self Confidence <img class="self-confidence-img"
-                            src="./assets/confidence-border.png"></div>
+                            src="/assets/confidence-border.png"></div>
                     <div class="content-text">Misaligned teeth can affect
                         self-esteem and willingness to smile.</div>
                 </div>
@@ -74,8 +74,8 @@
                 <span class="slaying">Slaying</span>
             </div>
             <div class="arrow-section">
-                <img class="switch-arrows" style="margin-right:25px" src="./assets/left-arrow.svg" (mouseover)="prev()">
-                <img class="switch-arrows" src="./assets/right-arrow.svg" (mouseover)="next()">
+                <img class="switch-arrows" style="margin-right:25px" src="/assets/left-arrow.svg" (mouseover)="prev()">
+                <img class="switch-arrows" src="/assets/right-arrow.svg" (mouseover)="next()">
             </div>
         </div>
         <div class="carousel-container">
@@ -87,7 +87,7 @@
         </div>
     </div>
     <div class="fifth-section">
-        <img src="./assets/teeth-without-clib.png" class="teeth-bg">
+        <img src="/assets/teeth-without-clib.png" class="teeth-bg">
         <div class="fifth-header">
             How you get your smile?
         </div>
@@ -98,15 +98,15 @@
             By integrating these three pillars, we deliver personalized aligner solutions that ensure precise fit,
             faster results, and a confident smile.
         </div>
-        <!-- <div class="test-btn">Smile Fit Test<img src="./assets/back-white.png" class="arrow-img"></div> -->
+        <!-- <div class="test-btn">Smile Fit Test<img src="/assets/back-white.png" class="arrow-img"></div> -->
         <div class="just-start-slaying-label">Just start slaying</div>
         <div class="steps-container">
             <div class="step">
-                <img class="step-teeth-bg" src="./assets/back-teeth.png">
+                <img class="step-teeth-bg" src="/assets/back-teeth.png">
                 <div class="blur-bg">
                     <div class="step-header">
                         <div>
-                            <img class="steps-icon" src="./assets/step1.png" style="margin-right:20px;">
+                            <img class="steps-icon" src="/assets/step1.png" style="margin-right:20px;">
                         </div>
                         <div class="step-details">
                             <div class="step-number">Step 1</div>
@@ -122,11 +122,11 @@
             </div>
 
             <div class="step">
-                <img class="step-teeth-bg" src="./assets/back-teeth.png">
+                <img class="step-teeth-bg" src="/assets/back-teeth.png">
                 <div class="blur-bg">
                     <div class="step-header">
                         <div>
-                            <img class="steps-icon" src="./assets/step2.png" style="margin-right:20px;">
+                            <img class="steps-icon" src="/assets/step2.png" style="margin-right:20px;">
                         </div>
                         <div class="step-details">
                             <div class="step-number">Step 2</div>
@@ -142,11 +142,11 @@
             </div>
 
             <div class="step">
-                <img class="step-teeth-bg" src="./assets/back-teeth.png">
+                <img class="step-teeth-bg" src="/assets/back-teeth.png">
                 <div class="blur-bg">
                     <div class="step-header">
                         <div>
-                            <img class="steps-icon" src="./assets/step3.png" style="margin-right:20px;">
+                            <img class="steps-icon" src="/assets/step3.png" style="margin-right:20px;">
                         </div>
                         <div class="step-details">
                             <div class="step-number">Step 3</div>
@@ -166,7 +166,7 @@
     <div class="sixth-section">
         <div class="lady-bg">
             <div class="bg-container"></div>
-            <img src="./assets/lady-bg-1.png" style="width:100%">
+            <img src="/assets/lady-bg-1.png" style="width:100%">
         </div>
         <div class="accordion-container">
             <div class="accordion-title">Our <span class="slaying">Medical Team</span>
@@ -177,8 +177,8 @@
                     <span class="accordion-label">
                         <img [src]="item.accordionIcon" class="accordion-icon">
                         {{item.accordionHeader}}</span>
-                    <img src="./assets/down-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex !== i">
-                    <img src="./assets/up-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex == i">
+                    <img src="/assets/down-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex !== i">
+                    <img src="/assets/up-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex == i">
                 </div>
                 <div class="accordion-content" *ngIf="activeAccordionIndex == i">
                     {{item.accordionContent}}
@@ -186,7 +186,7 @@
             </div>
         </div>
     </div>
-    <img src="./assets/clib-teeth-bg.png" class="teeth-bg">
+    <img src="/assets/clib-teeth-bg.png" class="teeth-bg">
     <div class="faq-section">
         <div class="faq-header">
             Frequently Asked Questions About Impress
@@ -216,8 +216,8 @@
         </div>
         <div class="btn-section">
             <div class="schedule-btn" style="background:inherit">Schedule<img class="arrow-icon"
-                    src="./assets/back-white.png" class="arrow-img"></div>
-            <div class="make-appointment-btn"><span>Make a Appointment</span> <img src="./assets/next-arrow.svg"
+                    src="/assets/back-white.png" class="arrow-img"></div>
+            <div class="make-appointment-btn"><span>Make a Appointment</span> <img src="/assets/next-arrow.svg"
                     class="arrow-img" />
             </div>
         </div>
@@ -229,10 +229,10 @@
             <div class="menu-items">support&#64;justslayit.in</div>
             <div class="menu-items" style="display:flex;justify-content: space-between;">
                 <a href="https://www.instagram.com/justslayit.in/" target="_blank">
-                    <img src="./assets/instagram.png" class="menu-icon">
+                    <img src="/assets/instagram.png" class="menu-icon">
                 </a>
-                <img src="./assets/linkedin.png" class="menu-icon">
-                <img src="./assets/facebook.png" class="menu-icon">                
+                <img src="/assets/linkedin.png" class="menu-icon">
+                <img src="/assets/facebook.png" class="menu-icon">                
             </div>            
         </div>
         <div class="home-menu">
