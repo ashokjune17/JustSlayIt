@@ -61,6 +61,17 @@
      font-weight: 700;
      font-style: italic;
    }
-   
+   /* @font-face {
+    font-family: 'Aveiner';
+    src: url('assets/font/afacad/aveiner/Avenir_LT_Std_65_Medium.otf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Futura';
+    src: url('assets/font/afacad/futura/futuramdbt_bold.otf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  } */
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

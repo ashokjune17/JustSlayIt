@@ -6,7 +6,6 @@ import { AboutUsComponent } from './about-us/about-us.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'home', component: HomeComponent },
   { path: 'aligner', component: SecondPageComponent },
   { path: 'about-us', component: AboutUsComponent },
 ];

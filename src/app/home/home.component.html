@@ -1,69 +1,56 @@
 <div class="home-page">
     <div class="top-container">
-        <img src="./assets/home-lady-bg.png" class="top-bg" />
         <div class="top-menu">
             <div class="header-logo"><img class="logo-img" src="./assets/Slay.svg" style="margin-left:30px" /></div>
-            <div class="header-menu">
-                <button class="menu-btn" mat-button [matMenuTriggerFor]="menu"><img class="hamburger-menu"
-                        src="./assets/menu.png" /></button>
-                <mat-menu #menu="matMenu">
-                    <button mat-menu-item [routerLink]="'/home'" xPosition="after" yPosition="below">Home</button>
-                    <button mat-menu-item [routerLink]="'/aligner'" xPosition="after" yPosition="below">Aligner</button>
-                    <button mat-menu-item [routerLink]="'/about-us'" xPosition="after" yPosition="below">About Us</button>
-                </mat-menu>
-            </div>
         </div>
         <div class="header-text">
-            <span class="header-text-top">Tell -Pain-Free <br />
-                Orthodontic</span>
-            <br />
-            <span class="text-with-stroke">Treatment</span>
+            <span class="header-text-top">
+                Designed by <br />
+                <span class="yellow-text">orthodontists.</span>
+                <br />
+                <span class="text-with-stroke">Loved by</span>
+                <br />
+                <span class="text-with-stroke">Trendsetters.</span>
+            </span>
+        </div>
+        <div class="lady-bg">
+            <img src="./assets/image1.jpg" class="top-bg" />
         </div>
     </div>
-    <div class="second-content">
-        <div style="display:flex;justify-content:center;">
-            <img src="./assets/google-icon.png">
-            <div class="">
-                <div class="rating">4.5 <img src="./assets/rating.png"></div>
-                <div class="reviews"><img src='./assets/tick-icon.png' style="margin-right:10px"> 1+ reviews</div>
-            </div>
-        </div>
-    </div>
-    <div class="third-circle" style="margin-top:30px;">
+    <div class="third-circle" style="margin-top:30px; margin-bottom: 60px; padding: 40px; background: #fffad4;">
         <div class="outer-circle">
-            <div class="inner-circle" style="background-image: url('./assets/teeth-clib.svg');">
+            <div class="inner-circle">
+
                 <div class="content1">
-                    <div class="positioned-dot" style="background-image: url('./assets/dot.svg');"></div>
+                    <div class="positioned-dot"></div>
                     <div class="content-title">Jaw Pain</div>
                     <div class="content-text">Misaligned teeth can cause strain on the jaw, leading to pain and
                         discomfort.</div>
                 </div>
                 <div class="content2">
-                    <div class="positioned-dot" style="background-image: url('./assets/dot.svg');"></div>
+                    <div class="positioned-dot"></div>
                     <div class="content-title">Speech Issues</div>
                     <div class="content-text">Malocclusion can interfere with proper pronunciation and speech clarity.
                     </div>
                 </div>
                 <div class="content3">
-                    <div class="positioned-dot" style="background-image: url('./assets/dot.svg');"></div>
+                    <div class="positioned-dot"></div>
                     <div class="content-title">Tooth Wear</div>
                     <div class="content-text">Crowded or misaligned teeth make cleaning difficult, increasing the risk
                         of gum disease.</div>
                 </div>
                 <div class="content4">
-                    <div class="positioned-dot" style="background-image: url('./assets/dot.svg');"></div>
+                    <div class="positioned-dot"></div>
                     <div class="content-title">Tooth Wear</div>
                     <div class="content-text">Slow metabolism can result in your hair becoming dry, brittle, coarse and
                         even break off.</div>
                 </div>
                 <div class="content5">
-                    <div class="positioned-dot" style="background-image: url('./assets/dot.svg');"></div>
-                    <div class="content-title">Self Confidence <img class="self-confidence-img"
-                            src="./assets/confidence-border.png"></div>
+                    <div class="positioned-dot"></div>
+                    <div class="content-title">Self Confidence </div>
                     <div class="content-text">Misaligned teeth can affect
                         self-esteem and willingness to smile.</div>
                 </div>
-                <!-- <div class="marker"></div> -->
             </div>
         </div>
     </div>
@@ -72,6 +59,7 @@
             <div class="fourth-title">
                 People Who are <br />
                 <span class="slaying">Slaying</span>
+
             </div>
             <div class="arrow-section">
                 <img class="switch-arrows" style="margin-right:25px" src="./assets/left-arrow.svg" (mouseover)="prev()">
@@ -87,7 +75,7 @@
         </div>
     </div>
     <div class="fifth-section">
-        <img src="./assets/teeth-without-clib.png" class="teeth-bg">
+        <img src="./assets/image2.jpg" class="teeth-bg">
         <div class="fifth-header">
             How you get your smile?
         </div>
@@ -102,35 +90,25 @@
         <div class="just-start-slaying-label">Just start slaying</div>
         <div class="steps-container">
             <div class="step">
-                <!-- <img class="step-teeth-bg" src="./assets/back-teeth.png"> -->
                 <div class="blur-bg">
                     <div class="step-header">
-                        <div>
-                            <img class="steps-icon" src="./assets/step1.png" style="margin-right:20px;">
-                        </div>
                         <div class="step-details">
                             <div class="step-number">Step 1</div>
-                            <div class="step-time">Takes 5 minutes</div>
                         </div>
                     </div>
                     <div class="step-content">
                         <div class="step-title">Take a Scan</div>
                         <div class="content-brief">Visit one of our clinic to check your oral health</div>
                     </div>
+
                 </div>
-                <div class="step-marker" style="background-image: url(./assets/marker-arrow.svg);"></div>
             </div>
 
             <div class="step">
-                <!-- <img class="step-teeth-bg" src="./assets/back-teeth.png"> -->
                 <div class="blur-bg">
                     <div class="step-header">
-                        <div>
-                            <img class="steps-icon" src="./assets/step2.png" style="margin-right:20px;">
-                        </div>
                         <div class="step-details">
                             <div class="step-number">Step 2</div>
-                            <div class="step-time">Takes a day</div>
                         </div>
                     </div>
                     <div class="step-content">
@@ -138,19 +116,12 @@
                         <div class="content-brief">Our orthodontists give you a customised treatment plan</div>
                     </div>
                 </div>
-                <div class="step-marker" style="background-image: url(./assets/marker-arrow.svg);"></div>
             </div>
-
             <div class="step">
-                <!-- <img class="step-teeth-bg" src="./assets/back-teeth.png"> -->
                 <div class="blur-bg">
                     <div class="step-header">
-                        <div>
-                            <img class="steps-icon" src="./assets/step3.png" style="margin-right:20px;">
-                        </div>
                         <div class="step-details">
                             <div class="step-number">Step 3</div>
-                            <div class="step-time">Takes a day</div>
                         </div>
                     </div>
                     <div class="step-content">
@@ -166,7 +137,7 @@
     <div class="sixth-section">
         <div class="lady-bg">
             <div class="bg-container"></div>
-            <img src="./assets/lady-bg-1.png" style="width:100%">
+            <img src="./assets/image3.jpg" style="width:100%">
         </div>
         <div class="accordion-container">
             <div class="accordion-title">Our <span class="slaying">Medical Team</span>
@@ -186,11 +157,10 @@
             </div>
         </div>
     </div>
-    <img src="./assets/clib-teeth-bg.png" class="teeth-bg">
+    <div class="faq-header">
+        Frequently Asked Questions About Impress
+    </div>
     <div class="faq-section">
-        <div class="faq-header">
-            Frequently Asked Questions About Impress
-        </div>
         <div class="faq-items">
             <div class="faq" *ngFor="let item of faqSet;let i=index">
                 <div class="faq-question" (click)="openFaq(i)">
@@ -205,23 +175,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="seventh-section">
-        <div class="seventh-header">
-            Schedule a virtual or presential <br>
-            Appointment today
-        </div>
-        <div class="seventh-content">
-            Book your dental appointment today! Our team is ready to provide you with top-notch care. Choose a time that
-            works best for you and maintain your healthy smile!
-        </div>
-        <div class="btn-section">
-            <div class="schedule-btn" style="background:inherit">Schedule<img class="arrow-icon"
-                    src="./assets/back-white.png" class="arrow-img"></div>
-            <div class="make-appointment-btn"><span>Make a Appointment</span> <img src="./assets/next-arrow.svg"
-                    class="arrow-img" />
-            </div>
-        </div>
-    </div> -->
+    <img src="./assets/image4.jpg" class="teeth-bg">
     <div class="footer-section">
         <div class="home-menu">
             <div class="menu-header">Support</div>
@@ -229,10 +183,10 @@
             <div class="menu-items">support&#64;justslayit.in</div>
             <div class="menu-items" style="display:flex;justify-content: space-between;">
                 <a href="https://www.instagram.com/justslayit.in/" target="_blank">
-                    <img src="./assets/instagram.png" class="menu-icon">
+                    <img src="../assets/instagram.png" class="menu-icon">
                 </a>
-                <img src="./assets/linkedin.png" class="menu-icon">
-                <img src="./assets/facebook.png" class="menu-icon">                
+                <img src="../assets/linkedin.png" class="menu-icon">
+                <img src="../assets/facebook.png" class="menu-icon">                
             </div>            
         </div>
         <div class="home-menu">

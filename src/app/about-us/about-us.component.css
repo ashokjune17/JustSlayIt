@@ -7,9 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    position: relative;
-    z-index: 999
 }
 
 .header-text {
@@ -70,15 +67,6 @@
     padding: 6%;
     display: flex;
     justify-content: space-between;
-}
-
-.top-menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    /* margin: 20px; */
-    border-radius: 12px;
-    background: #FFFAD4;
 }
 
 .tab-button {
@@ -285,15 +273,6 @@
         z-index: 0;
         width: 200px;
         height: fit-content;
-    }
-
-    .top-menu {
-        display: flex;
-        justify-content: space-between;
-        padding: 15px;
-        margin: 20px;
-        border-radius: 12px;
-        background: #0E3031;
     }
 
     .slay-img {
@@ -685,5 +664,4 @@
     .doctor-designation {
         font-size: 1rem;
     }
-
 }
