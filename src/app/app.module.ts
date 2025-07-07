@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SecondPageComponent } from './second-page/second-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AboutUsComponent } from './about-us/about-us.component';
+// import { AboutUsComponent } from './about-us/about-us.component';
 // import { MatMenuModule } from '@angular/material';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     AppComponent,
     HomeComponent,
     SecondPageComponent,
-    AboutUsComponent
+    // AboutUsComponent
   ],
   imports: [
     BrowserModule,
