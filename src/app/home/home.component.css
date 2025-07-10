@@ -68,7 +68,8 @@ body {
 .header-text {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 10%;
     width: 50%;
 }
 
@@ -83,8 +84,8 @@ body {
 }
 
 .inner-circle {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
 }
 
 .outer-circle,
@@ -102,6 +103,15 @@ body {
 .positioned-dot {    
     width: 30px;
     height: 30px;
+}
+
+.green-dot {
+  width: 15px;              /* Size of the dot */
+  height: 15px;
+  background-color: #d4e157; /* Light green shade */
+  border-radius: 50%;       /* Makes it a circle */
+  display: inline-block;
+  border: 2px solid rgba(98, 183, 169, 0.49);
 }
 
 .marker {
@@ -131,27 +141,23 @@ body {
 }
 
 .header-text-top {
-    font-family: Oceanwide;
+    font-family: Aveiner;
     font-weight: 600;
     font-size: 54px;
     line-height: 110.00000000000001%;
     letter-spacing: 0%;
     color: #FFFAD4;
-    margin-left: 25px;
 }
-
-
 
 .header-menu {
     display: flex;
 }
 
 .text-with-stroke {
-    color: #4d88a9;
-    -webkit-text-stroke: 2px #FFFAD4;
-    font-family: Oceanwide;
+    color: #FFFAD4;
+    font-family: Aveiner;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 54px;
     line-height: 110.00000000000001%;
 }
 
@@ -305,7 +311,7 @@ body {
 }
 
 .fourth-title {
-    font-family: Oceanwide;
+    font-family: Aveiner;
     font-weight: 600;
     font-size: 45px;
     line-height: 3rem;
@@ -340,7 +346,7 @@ body {
 }
 
 .fifth-header {
-    font-family: Oceanwide;
+    font-family: Aveiner;
     font-weight: 600;
     font-size: 54px;
     line-height: 110.00000000000001%;
@@ -353,7 +359,7 @@ body {
 }
 
 .fifth-info {
-    font-family: Afacad;
+    font-family: Aveiner;
     font-weight: 600;
     font-size: 36px;
     line-height: 110.00000000000001%;
@@ -429,13 +435,13 @@ body {
     display: flex;
     margin: auto;
     margin-top: 30px;
-    width: 90%;
+    width: 70%;
     height: 450px;
     justify-content: space-between;
 }
 
 .step-header {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .step-header {
@@ -473,11 +479,11 @@ body {
 .step-number {
     font-family: Afacad;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 110.00000000000001%;
     letter-spacing: 0%;
     color: #ebfd67;
-
+    text-align: center !important;
 }
 
 .accordion-content {
@@ -738,8 +744,9 @@ body {
     }
 
     .logo-img {
-        margin-left: 25px !important;
-        width: 40px;
+        margin-left: 80px !important;
+        width: 10px;
+        height: 100px;
     }
 
     .menu-icon {
@@ -1324,7 +1331,7 @@ body {
     }
 
     .content2 {
-        right: -100px;
+        right: -115px;
     }
 
     .content3 {
@@ -1420,8 +1427,8 @@ body {
     }
 
     .inner-circle {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 
     .step-content {
@@ -1573,7 +1580,7 @@ body {
     }
 
     .content3 {
-        right: -80px;
+        right: -100px;
     }
 
     .content4 {
@@ -1779,7 +1786,7 @@ body {
     }
 
     .content3 {
-        right: -160px;
+        right: -170px;
     }
 
     .content4 {
@@ -1800,7 +1807,7 @@ body {
     }
 
     .content3 {
-        right: -80px;
+        right: -90px;
     }
 
     .content4 {
