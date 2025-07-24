@@ -139,22 +139,22 @@ class HomeComponent {
         this.medicalTeamAccordion = [
             {
                 accordionHeader: "Experience",
-                accordionIcon: "/assets/experience.png",
+                accordionIcon: "./assets/experience.png",
                 accordionContent: "We bring together top orthodontists and tech-driven smile designers to ensure flawless, expert-led transformations"
             },
             {
                 accordionHeader: "Safety",
-                accordionIcon: "/assets/safety.png",
+                accordionIcon: "./assets/safety.png",
                 accordionContent: " Crafted with globally certified materials, our aligners prioritize your health and comfort at every step."
             },
             {
                 accordionHeader: "Monitoring",
-                accordionIcon: "/assets/monitoring.png",
+                accordionIcon: "./assets/monitoring.png",
                 accordionContent: "With real-time tracking and expert supervision, your progress is closely guided from start to finish."
             },
             {
                 accordionHeader: "Excellence",
-                accordionIcon: "/assets/excellence.png",
+                accordionIcon: "./assets/excellence.png",
                 accordionContent: "Powered by innovation and precision, Slay delivers results that redefine aligner standards."
             },
         ];
