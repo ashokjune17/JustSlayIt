@@ -3,7 +3,8 @@ body {
 }
 
 .home-page {
-    width: 100%;
+    /* width: 100%; */
+    background: #FFFAD4;
 }
 
 .top-bg {
@@ -11,6 +12,7 @@ body {
     float: right;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
+    margin-right: 25px;
 }
 
 
@@ -26,8 +28,8 @@ body {
 
 .top-container {
     background: #4d88a9;
-    border-radius: 12px;
-    border: 2px solid #FFFAD4;
+    /* border-radius: 12px; */
+    /* border: 2px solid #FFFAD4; */
     position: relative;
     /* margin: 50px; */
     margin-bottom: 0px !important;
@@ -68,8 +70,7 @@ body {
 .header-text {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 10%;
+    align-items: center;
     width: 50%;
 }
 
@@ -84,34 +85,27 @@ body {
 }
 
 .inner-circle {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
 }
 
 .outer-circle,
 .inner-circle {
-    border: 2px solid rgba(98, 183, 169, 0.49);
+    border: 1px solid #4d88a9;
     border-radius: 50%;
 }
 
-.inner-circle {    
+.inner-circle {
+    /* background-image: url('/assets/teeth.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 300px 200px;
+    background-size: 250px 200px;
 }
 
-.positioned-dot {    
+.positioned-dot {
+    background-image: url('/assets/dot.svg');
     width: 30px;
     height: 30px;
-}
-
-.green-dot {
-  width: 15px;              /* Size of the dot */
-  height: 15px;
-  background-color: #ebfd67; /* Light green shade */
-  border-radius: 50%;       /* Makes it a circle */
-  display: inline-block;
-  border: 2px solid rgba(98, 183, 169, 0.49);
 }
 
 .marker {
@@ -132,7 +126,7 @@ body {
     height: 120px;
     transform: rotate(-40deg);
     background-size: contain;
-    background-image: url('/assets/marker-arrow.svg');
+    background-image: url(/assets/marker-arrow.svg);
 }
 
 .fourth-section {
@@ -149,15 +143,18 @@ body {
     color: #FFFAD4;
 }
 
+
+
 .header-menu {
     display: flex;
 }
 
 .text-with-stroke {
-    color: #FFFAD4;
+    /* color: #4d88a9; */
+    /* -webkit-text-stroke: 2px #FFFAD4; */
     font-family: Aveiner;
     font-weight: 600;
-    font-size: 54px;
+    font-size: 64px;
     line-height: 110.00000000000001%;
 }
 
@@ -185,12 +182,12 @@ body {
 .content4,
 .content5 {
     border-radius: 8px;
-    background: #fffad4;
-    border: 2px solid rgba(98, 183, 169, 0.49);
+    /* background: rgb(149, 222, 227, 0.2); */
+    border: 1px solid #4d88a9;
     width: 270px;
     padding: 15px;
     backdrop-filter: blur(28.200000762939453px);
-    height: 110px;
+    height: 90px;
 }
 
 .carousel-container {
@@ -231,7 +228,7 @@ body {
 
 .content-title {
     font-family: Oceanwide;
-    font-weight: 400;
+    font-weight: 450;
     text-align: center;
     color: #4d88a9;
     font-size: 20px;
@@ -250,16 +247,25 @@ body {
     margin-top: 10px;
 }
 
+.green-dot {
+  width: 15px;              /* Size of the dot */
+  height: 15px;
+  background-color: #ebfd67; /* Light green shade */
+  border-radius: 50%;       /* Makes it a circle */
+  display: inline-block;
+  border: 1px solid #4d88a9;
+}
+
 .content1 {
     position: absolute;
-    left: -165px;
+    left: -175px;
     top: 80px;
 }
 
-.content1 .positioned-dot {
+.content1 .green-dot {
     position: absolute;
-    right: -35px;
-    bottom: 150px;
+    right: 13px;
+    bottom: 90px;
 }
 
 .content2 {
@@ -268,46 +274,46 @@ body {
     top: 80px;
 }
 
-.content2 .positioned-dot {
+.content2 .green-dot {
     position: absolute;
-    top: 5px;
-    left: 14px;
+    top: 10px;
+    left: 17px;
 }
 
 .content3 {
     position: absolute;
-    right: -150px;
+    right: -130px;
     top: 340px;
 }
 
-.content3 .positioned-dot {
+.content3 .green-dot {
     position: absolute;
-    top: -40px;
-    left: -20px;
+    top: 14px;
+    left: 14px;
 }
 
 .content4 {
     position: absolute;
-    left: -150px;
+    left: -140px;
     top: 340px;
 }
 
-.content4 .positioned-dot {
+.content4 .green-dot {
     position: absolute;
-    top: -40px;
-    right: -15px
+    top: 11px;
+    right: 5px
 }
 
 .content5 {
     position: absolute;
     bottom: -25px;
-    left: 90px
+    left: 105px
 }
 
-.content5 .positioned-dot {
+.content5 .green-dot {
     position: absolute;
-    top: -35px;
-    left: -30px;
+    top: 10px;
+    left: 10px;
 }
 
 .fourth-title {
@@ -333,7 +339,7 @@ body {
 }
 
 .slaying {
-    color: rgb(210, 215, 85);
+    color: #ebfd67;
 }
 
 .switch-arrows {
@@ -353,7 +359,6 @@ body {
     letter-spacing: 0%;
     color: #4d88a9;
     text-align: center;
-    /* background: #ebfd67; */
     padding: 10px 10px;
     margin: 10px 0px;
 }
@@ -435,13 +440,13 @@ body {
     display: flex;
     margin: auto;
     margin-top: 30px;
-    width: 70%;
+    width: 90%;
     height: 450px;
     justify-content: space-between;
 }
 
 .step-header {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .step-header {
@@ -473,7 +478,7 @@ body {
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0%;
-    color:  #FFFAD4;
+    color: rgba(31, 31, 31, 1);
 }
 
 .step-number {
@@ -483,7 +488,6 @@ body {
     line-height: 110.00000000000001%;
     letter-spacing: 0%;
     color: #ebfd67;
-    text-align: center !important;
 }
 
 .accordion-content {
@@ -572,7 +576,7 @@ body {
 }
 
 .seventh-section {
-    background-image: url('/assets/teeth-bg.png') !important;
+    background-image: url(/assets/teeth-bg.png) !important;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-backdrop-filter: blur(20.399999618530273px);
@@ -682,6 +686,7 @@ body {
 
 .accordion-container {
     padding: 20px;
+    width: 50%;
 }
 
 .plus-icon,
@@ -729,6 +734,14 @@ body {
 
 /* Extra small devices (phones, <576px) */
 @media (max-width: 575px) {
+    .top-bg {
+        width: 70%;
+    }
+
+    .home-page {
+        width: 110%;
+    }
+
     .top-container {
         /* margin: 20px; */
         margin-bottom: 0px !important;
@@ -744,9 +757,8 @@ body {
     }
 
     .logo-img {
-        margin-left: 80px !important;
-        width: 10px;
-        height: 100px;
+        margin-left: 10px !important;
+        width: 60px;
     }
 
     .menu-icon {
@@ -805,7 +817,9 @@ body {
     }
 
     .header-text-top {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
 
@@ -820,75 +834,84 @@ body {
         width: 80%;
     }
 
+    .green-dot {
+        width: 10px;              /* Size of the dot */
+        height: 10px;
+    }
+
     .content1,
     .content2,
     .content3,
     .content4,
     .content5 {
-        width: 80px;
-        padding: 8px;
-        height: 70px;
+        width: 95px;
+        padding: 2px;
+        height: 55px;
     }
 
-
     .content-title {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        padding-top: 5px;
     }
 
     .content-text {
-        font-size: 0.5rem;
+        font-size: 0.45rem;
     }
 
     .content1 {
-        left: 20px;
-        top: 15px;
+        left: 5px;
+        top: 13px;
     }
 
-    .content1 .positioned-dot {
+    .content1 .green-dot {
         bottom: 70px;
-        right: -19px;
-        top: -15px;
+        right: 5px;
+        top: 2px;
     }
 
     .content2 {
-        right: 20px;
+        right: 4px;
         top: 15px;
     }
 
-    .content2 .positioned-dot {
+    .content2 .green-dot {
         bottom: 70px;
-        left: -19px;
-        top: -15px;
+        left: 2px;
+        top: 2px;
     }
 
     .content3 {
-        right: -0px;
+        right: -4px;
         top: 150px;
     }
 
-    .content3 .positioned-dot {
-        top: -20px;
-        left: -5px;
+    .content3 .green-dot {
+        top: 3px;
+        left: 3px;
     }
 
     .content4 {
-        left: -5px;
+        left: -29px;
         top: 150px;
+        width: 120px;
+        padding-top: 5px;
     }
 
-    .content4 .positioned-dot {
-        top: -20px;
-        right: -10px;
+    .content4 .green-dot {
+        top: 2px;
+        right: 4px;
     }
 
     .content5 {
-        bottom: -60px;
+        bottom: -30px;
         left: 70px;
+        width: 100px;
+        padding-top: 5px;
     }
 
-    .content5 .positioned-dot {
-        top: -25px;
-        left: -20px;
+    .content5 .green-dot {
+        top: 3px;
+        left: 3px;
     }
 
     .self-confidence-img {
@@ -921,7 +944,7 @@ body {
         height: 40px;
         transform: rotate(-40deg);
         background-size: contain;
-        background-image: url('/assets/marker-arrow.svg');
+        background-image: url(/assets/marker-arrow.svg);
     }
 
 
@@ -959,9 +982,7 @@ body {
         margin: auto;
     }
 
-    .slaying {
-        color: rgba(38, 142, 146, 1);
-    }
+
 
     .switch-arrows {
         width: 20px;
@@ -970,6 +991,15 @@ body {
 
     .arrow-section {
         align-self: end;
+    }
+
+    .third-circle {
+        margin-bottom: 70px;
+        margin-left: 35px;
+    }
+
+    .step-header {
+        margin-bottom: 20px;
     }
 
     .fifth-header {
@@ -1085,11 +1115,12 @@ body {
 
     .faq-section {
         background: linear-gradient(98.6deg, #0E3031 0%, #27D0D5 100%);
-        height: 700px;
+        height: 400px;
         padding: 50px 20px;
         margin-left: -40px;
         margin-bottom: 50px;
         width: 100%;
+        padding: 40px;
     }
 
     .faq-header {
@@ -1158,6 +1189,7 @@ body {
 
     .accordion-container {
         padding: 10px;
+        margin: auto;
     }
 
     .plus-icon,
@@ -1331,7 +1363,7 @@ body {
     }
 
     .content2 {
-        right: -115px;
+        right: -100px;
     }
 
     .content3 {
@@ -1359,10 +1391,7 @@ body {
     }
 
     .third-circle {
-        margin-top: 30px;
         margin-bottom: 60px;
-        background: #fffad4;
-        padding: 40px;
     }
 
     .carousel-item {
@@ -1427,8 +1456,8 @@ body {
     }
 
     .inner-circle {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .step-content {
@@ -1439,11 +1468,9 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
 
-
-    .top-container {
-        /* margin: 40px; */
+    .home-page {
+        width: 92%;
     }
-
 
     .text-with-stroke {
         font-size: 2.6rem;
@@ -1451,6 +1478,12 @@ body {
 
     .header-text-top {
         font-size: 2.5rem;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .logo-img {
+        margin-left: 10px;
     }
 
     .second-content {
@@ -1549,7 +1582,15 @@ body {
     .content4,
     .content5 {
         width: 30%;
-        height: 90px;
+        height: 80px;
+    }
+
+    .content-title {
+        font-size: 1rem;
+    }
+
+    .content-text {
+        font-size: 0.8rem;
     }
 
     .content3 .positioned-dot {
@@ -1562,8 +1603,9 @@ body {
     }
 
     .content4 {
-        left: -80px;
+        left: -86px;
         top: 250px;
+        width: 170px;
     }
 
     .content1 .positioned-dot {
@@ -1572,7 +1614,8 @@ body {
     }
 
     .content1 {
-        left: -100px;
+        left: -92px;
+        width: 140px;
     }
 
     .content2 {
@@ -1580,15 +1623,12 @@ body {
     }
 
     .content3 {
-        right: -100px;
-    }
-
-    .content4 {
-        left: -90px;
+        right: -60px;
     }
 
     .content5 {
         bottom: -70px;
+        width: 170px;
     }
 
     .marker {
@@ -1604,10 +1644,9 @@ body {
     }
 
     .third-circle {
-        margin-top: 30px;
         margin-bottom: 60px;
         background: #fffad4;
-        padding: 40px;
+        padding: 100px 40px;
     }
 
     .carousel-item {
@@ -1685,8 +1724,8 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
-    .top-container {
-        /* margin: 40px; */
+    .home-page {
+        width: 100%;
     }
 
 
@@ -1695,7 +1734,9 @@ body {
     }
 
     .header-text-top {
-        font-size: 2.5rem;
+        font-size: 3rem;
+    margin-left: 50px;
+    margin-top: 70px;
     }
 
     .second-content {
@@ -1786,7 +1827,7 @@ body {
     }
 
     .content3 {
-        right: -170px;
+        right: -160px;
     }
 
     .content4 {
@@ -1807,7 +1848,7 @@ body {
     }
 
     .content3 {
-        right: -90px;
+        right: -80px;
     }
 
     .content4 {
@@ -1830,10 +1871,7 @@ body {
     }
 
     .third-circle {
-        margin-top: 30px;
         margin-bottom: 60px;
-        background: #fffad4;
-        padding: 40px;
     }
 
     .carousel-item {
