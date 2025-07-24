@@ -1,7 +1,7 @@
 <div class="home-page">
     <div class="top-container">
         <div class="top-menu">
-            <div class="header-logo"><img class="logo-img" src="/assets/svgviewer-output.svg" style="margin-left:30px" /></div>
+            <div class="header-logo"><img class="logo-img" src="./assets/svgviewer-output.svg" style="margin-left:30px" /></div>
         </div>
         <div class="header-text">
             <span class="header-text-top">
@@ -14,12 +14,12 @@
                 </span>
         </div>
         <div class="lady-bg">
-            <img src="/assets/Homepage_1.png" class="top-bg" />
+            <img src="./assets/Homepage_1.png" class="top-bg" />
         </div>
     </div>
     <div class="third-circle" style="margin-top: 50px; margin-bottom: 50px;">
         <div class="outer-circle">
-            <div class="inner-circle" style="background-image: url('/assets/bg-removed-2.png');">
+            <div class="inner-circle" style="background-image: url('./assets/bg-removed-2.png');">
 
                 <div class="content1">
                     <div class="green-dot"></div>
@@ -61,8 +61,8 @@
 
             </div>
             <div class="arrow-section">
-                <img class="switch-arrows" style="margin-right:25px" src="/assets/left-arrow.svg" (mouseover)="prev()">
-                <img class="switch-arrows" src="/assets/right-arrow.svg" (mouseover)="next()">
+                <img class="switch-arrows" style="margin-right:25px" src="./assets/left-arrow.svg" (mouseover)="prev()">
+                <img class="switch-arrows" src="./assets/right-arrow.svg" (mouseover)="next()">
             </div>
         </div>
         <div class="carousel-container">
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="fifth-section">
-        <img src="/assets/image2.jpg" class="teeth-bg">
+        <img src="./assets/image2.jpg" class="teeth-bg">
         <div class="fifth-header">
             How you get your smile?
         </div>
@@ -139,7 +139,7 @@
     <div class="sixth-section">
         <div class="lady-bg">
             <div class="bg-container"></div>
-            <img src="/assets/SIG00698.png" style="width:100%">
+            <img src="./assets/SIG00698.png" style="width:100%">
         </div>
         <div class="accordion-container">
             <div class="accordion-title">Our <span class="slaying">Medical Team</span>
@@ -150,8 +150,8 @@
                     <span class="accordion-label">
                         <img [src]="item.accordionIcon" class="accordion-icon">
                         {{item.accordionHeader}}</span>
-                    <img src="/assets/down-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex !== i">
-                    <img src="/assets/up-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex == i">
+                    <img src="./assets/down-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex !== i">
+                    <img src="./assets/up-arrow.png" class="arrow-icon" *ngIf="activeAccordionIndex == i">
                 </div>
                 <div class="accordion-content" *ngIf="activeAccordionIndex == i">
                     {{item.accordionContent}}
@@ -178,7 +178,7 @@
         </div>
     </div>
     <div style="background-color: #8f3b36;">
-        <img src="/assets/Homepage_4.png" class="teeth-bg">
+        <img src="./assets/Homepage_4.png" class="teeth-bg">
     </div>
     <div class="footer-section">
         <div class="home-menu">

@@ -102,33 +102,6 @@ body {
     background-size: 250px 200px;
 }
 
-.positioned-dot {
-    background-image: url('/assets/dot.svg');
-    width: 30px;
-    height: 30px;
-}
-
-.marker {
-    background-image: url('/assets/marker-arrow.svg');
-    height: 170px;
-    position: absolute;
-    right: 100px;
-    width: 200px;
-    bottom: 70px
-}
-
-.step-marker {
-    position: absolute;
-    top: 100px;
-    right: -130px;
-    background-repeat: no-repeat;
-    width: 130px;
-    height: 120px;
-    transform: rotate(-40deg);
-    background-size: contain;
-    background-image: url(/assets/marker-arrow.svg);
-}
-
 .fourth-section {
     background: #4d88a9;
     padding-bottom: 20px;
@@ -576,7 +549,7 @@ body {
 }
 
 .seventh-section {
-    background-image: url(/assets/teeth-bg.png) !important;
+    /* background-image: url(/assets/teeth-bg.png) !important; */
     background-repeat: no-repeat;
     background-position: center;
     -webkit-backdrop-filter: blur(20.399999618530273px);
@@ -935,18 +908,6 @@ body {
         margin: auto;
         margin-top: 30px
     }
-
-    .step-marker {
-        position: absolute;
-        left: 125px;
-        background-repeat: no-repeat;
-        width: 30px;
-        height: 40px;
-        transform: rotate(-40deg);
-        background-size: contain;
-        background-image: url(/assets/marker-arrow.svg);
-    }
-
 
     .carousel-item {
         margin-right: 15px;
