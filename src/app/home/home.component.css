@@ -1,5 +1,8 @@
 body {
     margin: 0px !important;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d24c0e; /* or whatever the main background is */
 }
 
 .home-page {
@@ -505,7 +508,7 @@ body {
 .faq-section {
     background: #4d88a9;
     height: 700px;
-    padding: 50px 20px;
+    padding: 50px 5px;
     margin-bottom: 50px;
 }
 
@@ -718,9 +721,9 @@ body {
         width: 70%;
     }
 
-    .home-page {
+    /* .home-page {
         width: 110%;
-    }
+    } */
 
     .top-container {
         /* margin: 20px; */
@@ -770,8 +773,8 @@ body {
     }
 
     .outer-circle {
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 340px;
     }
 
     .inner-circle {
@@ -839,7 +842,7 @@ body {
     }
 
     .content1 {
-        left: 5px;
+        left: 0px;
         top: 13px;
     }
 
@@ -850,7 +853,7 @@ body {
     }
 
     .content2 {
-        right: 4px;
+        right: -3px;
         top: 15px;
     }
 
@@ -861,7 +864,7 @@ body {
     }
 
     .content3 {
-        right: -4px;
+        right: -15px;
         top: 150px;
     }
 
@@ -871,10 +874,10 @@ body {
     }
 
     .content4 {
-        left: -29px;
+        left: -14px;
         top: 150px;
-        width: 120px;
-        padding-top: 5px;
+        width: 95px;
+        padding-top: 8px;
     }
 
     .content4 .green-dot {
@@ -885,7 +888,7 @@ body {
     .content5 {
         bottom: -30px;
         left: 70px;
-        width: 100px;
+        width: 120px;
         padding-top: 5px;
     }
 
@@ -969,7 +972,12 @@ body {
 
     .third-circle {
         margin-bottom: 70px;
-        margin-left: 35px;
+
+
+        max-width: 100%;
+        height: auto;
+        display: block;
+
     }
 
     .step-header {
@@ -1091,11 +1099,11 @@ body {
         /* background: linear-gradient(98.6deg, #0E3031 0%, #27D0D5 100%); */
         background: #4d88a9;
         height: 400px;
-        padding: 50px 20px;
+        padding: 30px 0px 0px 30px;
         margin-left: -40px;
         margin-bottom: 50px;
-        width: 100%;
-        padding: 40px;
+        /* width: 100%; */
+        /* padding: 40px; */
     }
 
     .faq-header {
@@ -1445,9 +1453,9 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .home-page {
+    /* .home-page {
         width: 92%;
-    }
+    } */
 
     .text-with-stroke {
         font-size: 2.6rem;
@@ -1592,12 +1600,14 @@ body {
     }
 
     .content1 {
-        left: -92px;
+        left: -35px;
+        top: 28px;
         width: 140px;
     }
 
     .content2 {
-        right: -100px;
+        right: -91px;
+        top: 59px;
     }
 
     .content3 {
@@ -1606,7 +1616,7 @@ body {
 
     .content5 {
         bottom: -70px;
-        width: 170px;
+        width: 180px;
     }
 
     .marker {
@@ -1702,9 +1712,9 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
-    .home-page {
+    /* .home-page {
         width: 100%;
-    }
+    } */
 
 
     .text-with-stroke {
